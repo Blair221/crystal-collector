@@ -30,7 +30,7 @@ $(function() {
         "Figure out how much each crystal is worth, can you hit the target score?"
       );
     $("#amethyst").on("click", function() {
-      alert("This crystal is worth " + amethystValue);
+      
       currentTotal += amethystValue;
       $("#total").html("<h6>Current Total: </h6>" + currentTotal);
       console.log(currentTotal);
@@ -86,7 +86,7 @@ $(function() {
     });
 
     $("#ruby").on("click", function() {
-      alert("This crystal is worth " + rubyValue);
+      
       currentTotal += rubyValue;
       $("#total").html("<h6>Current Total: </h6>" + currentTotal);
       console.log(currentTotal);
@@ -142,7 +142,7 @@ $(function() {
     });
 
     $("#sapphire").on("click", function() {
-      alert("This crystal is worth " + sapphireValue);
+      
       currentTotal += sapphireValue;
       $("#total").html("<h6>Current Total: </h6>" + currentTotal);
       console.log(currentTotal);
@@ -198,7 +198,7 @@ $(function() {
     });
 
     $("#topaz").on("click", function() {
-      alert("This crystal is worth " + topazValue);
+      
       currentTotal += topazValue;
       $("#total").html("<h6>Current Total: </h6>" + currentTotal);
       console.log(currentTotal);
