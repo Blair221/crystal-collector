@@ -19,23 +19,31 @@
       <h1 class="display-4">Crystal Collector!</h1>
       <hr class="my-4" />
       <p>
-        It uses utility classes for typography and spacing to space content out
-        within the larger container.
+        Press the start button to begin collecting!
       </p>
-      <a class="btn btn-outline-danger btn-lg" href="#" role="button"
-        >Start the game!</a
-      >
+      <a class="btn btn-outline-danger btn-lg" href="#" role="button">Start</a>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6">
-          <div class="row">
+        <div class="col-md-2 card">
+          <div class="row card-header"><h4>Totals</h4></div>
+          <div class="row card-body">
+            <div class="col-md-8"><h6>Number:</h6></div>
+            <hr />
+          </div>
+          <div class="row card-body">
+            <div class="col-md-8"><h6>Current Total:</h6></div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6 card">
+          <div class="row card-header"><h4>Crystals</h4></div>
+          <div class="row card-body">
             <div class="col-md-3">
               <img
                 src="assets/images/amethyst.png"
                 class="card-img button crystal"
-                id="crystal"
+                id="amethyst"
                 alt="purple crystal"
               />
             </div>
@@ -43,7 +51,7 @@
               <img
                 src="assets/images/ruby.png"
                 class="card-img button crystal"
-                id="crystal"
+                id="ruby"
                 alt="red crystal"
               />
             </div>
@@ -58,10 +66,20 @@
               <img
                 src="assets/images/topaz.png"
                 class="card-img button crystal"
-                id="crystal"
                 alt="yellow crystal"
               />
             </div>
+          </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2 card">
+          <div class="row card-header"><h4>Results</h4></div>
+          <div class="row card-body">
+            <div class="col-md-8"><h6>Wins:</h6></div>
+            <hr />
+          </div>
+          <div class="row card-body">
+            <div class="col-md-8"><h6>Losses:</h6></div>
           </div>
         </div>
       </div>
