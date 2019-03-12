@@ -18,7 +18,7 @@
     <div class="jumbotron text-center">
       <h1 class="display-4">Crystal Collector!</h1>
       <hr class="my-4" />
-      <p>
+      <p id="directions">
         Press the start button to begin collecting!
       </p>
       <a class="btn btn-outline-danger btn-lg" id="start-button" href="#" role="button">Start</a>
@@ -28,11 +28,11 @@
         <div class="col-md-2 card">
           <div class="row card-header"><h4>Totals</h4></div>
           <div class="row card-body">
-            <div class="col-md-8"><h6>Number:</h6></div>
+            <div class="col-md-8" id="random-number"></div>
             <hr />
           </div>
           <div class="row card-body">
-            <div class="col-md-8"><h6>Current Total:</h6></div>
+            <div class="col-md-8" id="total"></div>
           </div>
         </div>
         <div class="col-md-1"></div>
@@ -59,6 +59,7 @@
               <img
                 src="assets/images/sapphire.png"
                 class="card-img button crystal"
+                id="sapphire"
                 alt="blue crystal"
               />
             </div>
@@ -66,6 +67,7 @@
               <img
                 src="assets/images/topaz.png"
                 class="card-img button crystal"
+                id="topaz"
                 alt="yellow crystal"
               />
             </div>
@@ -75,11 +77,11 @@
         <div class="col-md-2 card">
           <div class="row card-header"><h4>Results</h4></div>
           <div class="row card-body">
-            <div class="col-md-8"><h6>Wins:</h6></div>
+            <div class="col-md-8" id="wins"></div>
             <hr />
           </div>
           <div class="row card-body">
-            <div class="col-md-8"><h6>Losses:</h6></div>
+            <div class="col-md-8" id="losses"></div>
           </div>
         </div>
       </div>
